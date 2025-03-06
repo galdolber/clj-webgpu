@@ -1,9 +1,8 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.12.0-rc1"}
         
-        com.phronemophobic/clong {;; :mvn/version "1.4.2"
-                                  :local/root "../clong"
-                                  }
+        com.phronemophobic/clong {:git/url "https://github.com/phronmophobic/clong"
+                                  :git/sha "00b999078ef3a70082cdc9aff97b93ecd0de6504"}
         org.clojars.cartesiantheatrics/clj-manifold3d {:mvn/version "0.1.0"}
         com.rpl/specter {:mvn/version "1.1.4"}
 
